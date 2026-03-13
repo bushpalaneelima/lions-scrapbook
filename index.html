@@ -339,9 +339,8 @@ document.addEventListener('touchstart',e=>{tx=e.touches[0].clientX;});
 document.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>50){dx<0?next():prev();}});
 window.addEventListener('load',()=>{try{new QRCode(document.getElementById('qrcode'),{text:'https://bushpalaneelima.github.io/lions-scrapbook',width:100,height:100,colorDark:'#0B1F3A',colorLight:'#FFFFFF'});}catch(e){}});
 </script>
-  <div style="position:fixed;bottom:4px;left:50%;transform:translateX(-50%);font-family:'Caveat',cursive;font-size:0.62rem;color:rgba(201,168,76,0.3);z-index:100;letter-spacing:0.08em;white-space:nowrap;">
-  Powered by NB Blue Studios
+<div style="position:fixed;bottom:4px;left:50%;transform:translateX(-50%);font-family:'Caveat',cursive;font-size:0.62rem;color:rgba(201,168,76,0.3);z-index:100;letter-spacing:0.08em;white-space:nowrap;">
+<a href="https://www.nbbluestudios.com" target="_blank" style="color:rgba(255,255,255,0.55);text-decoration:none;">✦ Powered by NB Blue Studios</a>
 </div>
 </body>
 </html>
-
